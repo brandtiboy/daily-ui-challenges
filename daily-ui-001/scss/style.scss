@@ -19,17 +19,14 @@ label {
 }
 
 input {
-    height: 43px;
+    padding: 12px;
+    //height: 43px;
     border-radius: 5px;
     background: #F3F3F3;
     box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.05);
     border: none;
     margin: 0.5rem 0;
     display: inline-block;
-}
-
-input:focus {
-    border-color: red;
 }
 
 a {
@@ -45,6 +42,10 @@ hr {
 
 span {
     color: #367AA0;
+
+    &:hover {
+        color: #2d6a8d;
+    }
 }
 
 @import 'home';

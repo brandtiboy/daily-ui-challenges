@@ -20,7 +20,7 @@ label {
 }
 
 input {
-  height: 43px;
+  padding: 12px;
   border-radius: 5px;
   background: #F3F3F3;
   -webkit-box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.05);
@@ -28,10 +28,6 @@ input {
   border: none;
   margin: 0.5rem 0;
   display: inline-block;
-}
-
-input:focus {
-  border-color: red;
 }
 
 a {
@@ -47,6 +43,10 @@ hr {
 
 span {
   color: #367AA0;
+}
+
+span:hover {
+  color: #2d6a8d;
 }
 
 .container {
@@ -69,6 +69,10 @@ span {
   text-align: center;
 }
 
+.container #google-button:hover {
+  background-color: #387be6;
+}
+
 .container .icons {
   display: inline-block;
   background: #F3F3F3;
@@ -77,6 +81,10 @@ span {
   text-align: center;
   margin-left: 10px;
   color: #000000;
+}
+
+.container .icons:hover {
+  background-color: #eeeeee;
 }
 
 .container .sign-up-container {
@@ -91,8 +99,16 @@ span {
   margin-right: 15px;
 }
 
+.container .small-input:hover {
+  background-color: #eeeeee;
+}
+
 .container .large-input {
   width: 456px;
+}
+
+.container .large-input:hover {
+  background-color: #eeeeee;
 }
 
 .container #sign-up {
@@ -101,10 +117,18 @@ span {
   font-weight: 600;
 }
 
+.container #sign-up:hover {
+  background: #964580;
+}
+
 .container #sign-in {
   background: #FFFFFF;
   border: 1px solid #D3D3D3;
   font-weight: 600;
+}
+
+.container #sign-in:hover {
+  background: #ececec;
 }
 
 .container .form-inline-block {
@@ -116,7 +140,7 @@ span {
 }
 
 .container #tickbox {
-  margin: 10px 0 30px 0;
+  margin: 40px 10px 20px 0;
 }
 
 .container .illustration-div {
