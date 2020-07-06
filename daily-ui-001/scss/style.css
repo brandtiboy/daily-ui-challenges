@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: #1F1F1F;
+}
+
+label {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+input {
+  height: 43px;
+  border-radius: 5px;
+  background: #F3F3F3;
+  -webkit-box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.05);
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+hr {
+  width: 355px;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  -ms-grid-rows: 1fr 2fr 1fr;
+      grid-template-rows: 1fr 2fr 1fr;
+}
+
+.container #google-button {
+  background-color: #4285F4;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  width: 236px;
+  height: 43px;
+  display: inline-block;
+  text-align: center;
+}
+
+.container .sign-up-container {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  grid-row: 2/-3;
+}
+
+.container .illustration-div {
+  background-color: #A9F2D5;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  grid-row: -1/-4;
+}
+
+.container .illustration-div img {
+  z-index: 10;
+  position: relative;
+  right: 150px;
+  top: 20%;
+}
+/*# sourceMappingURL=style.css.map */

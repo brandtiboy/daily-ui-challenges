@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+
+    #google-button {
+        background-color: #4285F4;
+        color: white;
+        font-size: 0.75rem;
+        font-weight: 600;
+        width: 236px;
+        height: 43px;
+        display: inline-block;
+        text-align: center;
+        
+    }
+
+    .sign-up-container {
+        grid-column: 1/2;
+        grid-row: 2/-3
+    }
+
+    .illustration-div {
+        background-color: #A9F2D5;
+        grid-column: 2/3;
+        grid-row: -1/-4;
+
+        img {
+            z-index: 10;
+            position: relative;
+            right: 150px;
+            top: 20%;
+        }
+    }
+}
