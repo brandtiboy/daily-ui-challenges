@@ -9,21 +9,19 @@
         color: white;
         font-size: 0.75rem;
         font-weight: 600;
-        width: 236px;
-        height: 43px;
+        padding: 14px 43px;
         display: inline-block;
         text-align: center;
-        
     }
 
     .icons {
         display: inline-block;
         background: #F3F3F3;
         border-radius: 5px;
-        width: 43px;
-        height: 43px;
+        padding: 10px 13px;
         text-align: center;
         margin-left: 10px;
+        color: #000000;
     }
 
     .sign-up-container {
@@ -74,6 +72,33 @@
             position: relative;
             right: 150px;
             top: 20%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1480px) {
+    .container {
+        display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            height: 100vh;
+
+        .sign-up-container {
+            grid-row: 2/3;
+        }
+
+        .illustration-div {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .container {
+        width: 80%;
+
+        input {
+            max-width: 350px;
         }
     }
 }
