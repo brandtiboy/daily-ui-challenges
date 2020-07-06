@@ -10,11 +10,13 @@ h1 {
   font-size: 1.375rem;
   font-weight: 700;
   color: #1F1F1F;
+  margin-bottom: 25px;
 }
 
 label {
   font-size: 0.75rem;
   font-weight: 600;
+  display: inline-block;
 }
 
 input {
@@ -24,6 +26,12 @@ input {
   -webkit-box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.05);
           box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.05);
   border: none;
+  margin: 0.5rem 0;
+  display: inline-block;
+}
+
+input:focus {
+  border-color: red;
 }
 
 a {
@@ -32,7 +40,13 @@ a {
 }
 
 hr {
-  width: 355px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 456px;
+  margin: 30px 0;
+}
+
+span {
+  color: #367AA0;
 }
 
 .container {
@@ -42,6 +56,7 @@ hr {
       grid-template-columns: 2fr 1fr;
   -ms-grid-rows: 1fr 2fr 1fr;
       grid-template-rows: 1fr 2fr 1fr;
+  height: 100vh;
 }
 
 .container #google-button {
@@ -55,6 +70,16 @@ hr {
   text-align: center;
 }
 
+.container .icons {
+  display: inline-block;
+  background: #F3F3F3;
+  border-radius: 5px;
+  width: 43px;
+  height: 43px;
+  text-align: center;
+  margin-left: 10px;
+}
+
 .container .sign-up-container {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
@@ -62,12 +87,47 @@ hr {
   grid-row: 2/-3;
 }
 
+.container .small-input {
+  width: 218px;
+  margin-right: 15px;
+}
+
+.container .large-input {
+  width: 456px;
+}
+
+.container #sign-up {
+  background: #B35598;
+  color: white;
+  font-weight: 600;
+}
+
+.container #sign-in {
+  background: #FFFFFF;
+  border: 1px solid #D3D3D3;
+  font-weight: 600;
+}
+
+.container .form-inline-block {
+  display: inline-block;
+}
+
+.container .form-inline-block label {
+  display: block;
+}
+
+.container #tickbox {
+  margin: 10px 0 30px 0;
+}
+
 .container .illustration-div {
   background-color: #A9F2D5;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
-  grid-row: -1/-4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1/4;
 }
 
 .container .illustration-div img {

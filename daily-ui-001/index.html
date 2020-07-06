@@ -13,23 +13,27 @@
         <div class="sign-up-container">
             <h1>Sign up to FitnessBuddy</h1>
             <a href="#" id="google-button">Sign up with Google</a>
-            <a href="#">twitter icon</a>
-            <a href="#">fb icon</a>
+            <a href="#" class="icons"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="icons"><i class="fab fa-facebook-square"></i></a>
             <hr>
             <form>
-                <label for="fullname">Full Name</label><br>
-                <input type="text" id="fullname" name="fullname"><br>
-                <label for="username">Username</label><br>
-                <input type="text" id="username" name="username"><br>
+                <div class="form-inline-block">
+                    <label for="fullname">Full Name</label>
+                    <input class="small-input" type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-inline-block">
+                    <label for="username">Username</label>
+                    <input class="small-input" type="text" id="username" name="username">
+                </div> <br>
                 <label for="email">Email</label><br>
-                <input type="email" id="email" name="email"><br>
+                <input class="large-input" type="email" id="email" name="email"><br>
                 <label for="password">Password</label><br>
-                <input type="password" id="password" name="password"><br>
-                <input type="checkbox" id="checkbox" name="checkbox">
-                <label id="tickbox" for="checkbox">Creating an account means that you accept our <span>Terms of Service</span>,
+                <input class="large-input" type="password" id="password" name="password"><br>
+                <input id="tickbox" type="checkbox" name="checkbox">
+                <label id="checkbox-info" for="checkbox">Creating an account means that you accept our <span>Terms of Service</span>,<br>
                     <span>Privacy Policy</span>, and our <span>Notification Settings</span>.</label><br>
-                <input id="sign-up" type="submit" value="Sign Up">    
-                <button>Sign In</button>
+                <input class="small-input" id="sign-up" type="submit" value="Sign Up">    
+                <input class="small-input" id="sign-in" type="submit" value="Sign In">
             </form>
         </div>
 
