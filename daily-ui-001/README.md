@@ -7,4 +7,4 @@ when i have time.
 
 In the design folder you can see the design itself.
 
-You can also visit the live version here: 
+You can also visit the live version here: https://daily-ui-001.vercel.app/
